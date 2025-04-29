@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/voice": "^1.1.9",
+    "@react-native-voice/voice": "^3.2.4",
     "@react-navigation/native": "^7.1.6",
     "@react-navigation/stack": "^7.2.10",
     "expo": "~52.0.46",
+    "expo-av": "~15.0.2",
     "expo-speech": "~13.0.1",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
